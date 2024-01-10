@@ -1,5 +1,5 @@
 {
-    "name": "justcommunication-ru/func-bundle",
+    "name": "justcommunication-ru/wb-func-bundle",
     "description": "Func bundle",
     "type": "symfony-bundle",
     "keywords": ["functions","array","date","string"],
