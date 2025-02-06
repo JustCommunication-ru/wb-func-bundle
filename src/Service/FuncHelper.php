@@ -216,7 +216,7 @@ class FuncHelper
      * @return bool
      */
     static function isEmail(string $email): bool{
-        if (!preg_match ( "/^[-\w.]+@([a-zA-Z0-9][-a-zA-Z0-9]+\.)+[a-zA-Z]{2,6}$/", $email)) {
+        if (!preg_match ( "/^[-\w.]+@([a-zA-Z0-9][-a-zA-Z0-9]+\.)+[a-zA-Z]{2,}$/", $email)) {
             return false;
         }
         return true;
